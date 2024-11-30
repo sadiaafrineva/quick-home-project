@@ -1,0 +1,256 @@
+*{
+    margin:0px ;
+    padding:0px ;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height:24px ;
+   
+}
+h1, h2, h3, h4, h5, h6,{
+    font-family: "Poppins", sans-serif;
+}
+a:hover{
+    text-decoration: none;
+}
+/* global css code goes here */
+
+.container{
+    width:1140px;
+    margin:0px auto ;
+}
+.row{
+    width:100% ;
+    float: left;
+}
+.col-6{
+    width:50% ;
+    float: left;
+}
+.col-12{
+    width: 100%;
+    float: left;
+}
+.col-4{
+    width:33.33% ;
+    float:left ;
+}
+
+/* global css code end here */
+.HEADER{
+width:100% ;
+float: left;
+padding: 10px 0px;
+border-bottom: 1px solid #eee;
+}
+    .logo{
+     display:block ;
+    }
+    .menu{
+        width:100% ;
+        float: left;
+        text-align: right;
+    }
+    .menu li{
+        list-style: none;
+        display:inline-block;
+    }
+    .menu li a{
+        display: block;
+font-size: 14px;
+line-height:24px ;
+text-transform: capitalize;
+color:#202020;
+margin:10px 0px 0px 35px; 
+}
+.banner{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    text-align: center;
+}
+.banner h1{
+   font-size:60px ;
+   line-height: 70px;
+color:#202020; 
+margin: 0px 0px 10px;
+}
+.banner h1 span{
+   color: #008AFF;
+}
+.banner p{
+    font-size:14px ;
+    line-height: 24px;
+ color:#0B2253;
+ margin: 0px 0px 10px;
+}
+.banner img{
+    width: 70%;
+}
+.succesful{
+    width: 100%;
+    float: left;
+    padding: 0px 0px 80px;
+}
+.left-succesful{
+    width:95% ;
+    float: left;
+    text-align:right;
+    margin: 0px 15px;
+}
+.left-succesful h1{ 
+    font-size:1.2em ;
+    line-height: 70px;
+ color:#F15565; 
+ margin: 0px 0px 10px;
+}
+.left-succesful p{ 
+    font-size:14px ;
+    line-height: 24px;
+ color:#202020; 
+ margin: 0px 0px 10px;
+}
+
+.right-succesful{
+    width:95% ;
+    float: left;
+    margin:0px 15px ;
+}
+
+.right-succesful h1{
+    font-size:60px ;
+    line-height: 70px;
+ color:#0B2253; 
+ margin: 0px 0px 10px;
+    
+}
+.feature{
+    width: 100%;
+    float: left;
+    padding: 0px 0px 80px;
+}
+.feature-inner{
+width: 90%;
+float: left;
+padding:40px 25px ;
+}
+.feature-inner img{
+width:100% ;
+height:200px ;
+margin: 0px 0px 10px;
+
+}
+.feature-inner h4{
+    font-size:22px ;
+    line-height: 32px;
+    color:#0B2253; 
+    margin: 0px 0px 10px;
+}
+.feature-inner p{
+    font-size:14px ;
+    line-height: 24px;
+ color:#202020; 
+ margin: 0px 0px 10px;
+}
+.bg-1{
+background:#FDEBED ;
+}
+.bg-2{
+    background:#EBF9F4 ;
+}
+.bg-3{
+    background:#FFF7E8 ;
+}
+
+/* landing page css code start */
+.intro{
+width: 100%;
+float: left;
+padding: 80px 0px;
+background: #eee;
+}
+/* landing page css code end  */
+
+.wrraper{
+  width:100% ;
+  height:100 ;   
+}
+.login-form{
+  width:500px;
+   margin: 30px auto;
+  padding: 40px;
+  border-radius: 15px;
+  border: 5px solid black;
+  background:#fff;
+}
+.avater{
+  width: 100%;
+  text-align: center;
+}
+.user{
+width: 90px;
+height: 90px;
+border-radius:100%;
+border:1px solid black;
+}
+.form-group{
+  width:100%;
+  margin:15px 0px;
+}
+.form-group label{
+  display:block;
+  font-size:14px;
+  line-height:24px;
+  text-transform:uppercase;
+  font-weight: 600;
+  color: black;  
+}
+.form-contrl{
+width: 95%;
+padding: 10px; 
+font-size:14px;
+color:#777 ;
+border: 2px solid  black;
+}
+.form-contrl:hover{
+  border:2px solid blue;   
+}
+.btn{
+padding:15px 45px;
+font-size: 14px;
+font-weight: 600;
+text-transform: uppercase;
+background: black;
+color: white;
+border:1px solid black ;
+}
+.btn:hover{
+  background: white;
+  color:black;
+  border:1px solid black;
+}
+
+/* contect css start here */
+
+
+
+.FOOTER{
+    width:100% ;
+    float: left;
+    padding: 25px 0px;
+    background:#008AFF ;
+    text-align: center;
+}
+.FOOTER p {
+    font-size: 14px;
+    line-height:24px ;
+    color: #fff;
+}
+.FOOTER p span{
+    font-weight:600 ;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+/* contect css start here */
+
